@@ -19,9 +19,4 @@ public class Producto1Application {
         return String.format("Hello %s!", name);
     }
 
-    // Controlador adicional para manejar la solicitud "/helloworld"
-    @GetMapping("/helloworld")
-    public String helloWorld() {
-        return "Hello World!";
-    }
 }
